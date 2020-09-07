@@ -9,7 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5C6C3FD4-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV19_Console_Test", "Test\CV19_Console\CV19_Console_Test.csproj", "{0DFE3CEB-6B5A-4B7F-A02F-7450D6D1DB7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV19_WPF_Test", "Test\CV19_WPF\CV19_WPF_Test.csproj", "{E1A3933A-9898-437A-A667-1C82F258B4AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV19_WPF_Test", "Test\CV19_WPF\CV19_WPF_Test.csproj", "{E1A3933A-9898-437A-A667-1C82F258B4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5A83F62-BDED-413F-A504-AD4841773612}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

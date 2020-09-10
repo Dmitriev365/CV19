@@ -24,6 +24,7 @@ namespace CV19.ViewModels
             set => Set(ref _Title, value);
         }
 
+
        
 
     }

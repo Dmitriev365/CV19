@@ -6,7 +6,7 @@ using CV19.ViewModels.Base;
 
 namespace CV19.ViewModels
 {
-    internal class MainWindowViewModel : Base.ViewModel
+    internal class MainWindowViewModel : ViewModel
     {
         private string _Title = "Data Analisys";
 

@@ -11,7 +11,7 @@ namespace CV19.ViewModels.Base
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(PropertyName));
         }
-
+         
         protected virtual bool Set<T>(ref T field, T vlue, [CallerMemberName] string PropertyName = null)
         {
             if (Equals(field, vlue)) return false;
@@ -19,6 +19,11 @@ namespace CV19.ViewModels.Base
             OnPropertyChanged(PropertyName);
             return true;
         }
+
+        //~ViewModel()
+        //{
+        //   Dispose(false);
+        //}
 
 
 

@@ -8,11 +8,11 @@ namespace CV19.ViewModels
 {
     internal class MainWindowViewModel : Base.ViewModel
     {
-        private string _Title;
+        private string _Title = "Data Analisys";
 
         public string Title
         {
-            get => Title;
+            get => _Title;
             //set
             //{
                 //if (Equals(_Title, value)) return;
@@ -23,10 +23,5 @@ namespace CV19.ViewModels
             //}
             set => Set(ref _Title, value);
         }
-
-
-       
-
     }
-
 }
